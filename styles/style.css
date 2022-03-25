@@ -7,4 +7,83 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background: repeating-linear-gradient(#1c5380, #1c5380 30%,#06365f 35%, white 35.1%, white 100%);
+}
+
+.landing-page {
+  display: flex;
+  justify-items: center;
+  justify-content:space-evenly;
+  padding : 10%;
+  padding-bottom: 0;
+}
+
+.landing-division{
+  justify-content: center;
+  margin : 5%;
+}
+
+.landing-header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  text-justify:distribute;
+  padding-bottom: 3%;
+}
+
+.login-button{
+  background: repeating-linear-gradient(#4e687e ,#1c5380 60%,#4e687e 100%);
+  background-repeat: no-repeat;
+  color: white;
+  padding: 2% 2% 1% 2%;
+  border: 1px solid #06365f;
+  border-radius: 0.25em;
+}
+
+.login-button a{
+  color: white;
+  font: Arial, sans-serif;
+  font-size: 1.25em;
+}
+
+.blank-area{
+  padding: 10%;
+  padding-top: 5%;
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+}
+
+.blank-area strong{
+  font-weight: bolder;
+}
+
+.footer{
+  display:flex;
+  align-items:flex-start;
+  justify-content: center;
+  color: #06365f;
+  margin-bottom:10%;
+}
+
+.footer-div{
+  margin:0;
+  justify-content: center;
+  justify-items: flex-start;
+  text-align:center;
+  padding-top:0%;
+  margin-bottom:10%
+}
+
+.footer-div a{
+  font-size: 1.25em;
+  padding: 1%;
+  color:#06365f;
+}
+
+a{
+  text-decoration: none;
+}
+
+h2 {
+  color:#06365f;
 }
